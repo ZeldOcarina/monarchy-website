@@ -313,7 +313,9 @@ span.opennavv i {
     margin-bottom: 0px;
 }
 .bannimg img{
+    height: 25px;
 }
+
 
 /*SpotLight Section*/
 
@@ -1131,3 +1133,12 @@ h2.head-artist {
         padding-left: 90px;
 }
 }
+
+.list-company
+{
+    background-image: url('img/c.png');
+    background-size: cover;
+     height: 699.75px;
+       width: 1160.25px;
+   /*width:100%;*/
+ }
