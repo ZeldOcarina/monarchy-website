@@ -143,6 +143,7 @@ CrimsonText-SemiBoldItalic
 }
 .mregular{
     font-family: Montserrat-Regular;
+    font-weight: 580 !important;
 }
 .mthin{
     font-family: Montserrat-Thin;
@@ -261,7 +262,7 @@ span.opennavv i {
 }
 .banner-content h2{
     font-size: 55px;
-    padding: 180px 0px 120px 0px;
+    padding: 240px 0px 120px 0px;
 }
 .banner-content h2 .brandd{
     border-bottom:4px solid #fff; 
@@ -283,6 +284,8 @@ span.opennavv i {
     padding-bottom: 20px;
     text-decoration: none;
     padding: 20px 30px; 
+    position: relative;
+    top: 25px;
 }
 .button-pro-left{
     margin-top: 90px;
@@ -301,7 +304,7 @@ span.opennavv i {
     padding-top: 25px;
     padding-bottom: 20px;
     text-decoration: none;
-    padding: 20px 110px; 
+    padding: 20px 90px; 
 }
 .banner-content-bottom{
         padding: 200px 0px 50px 0px;
@@ -326,7 +329,7 @@ span.opennavv i {
 }
 p.home-p {
     /*color: #0B888B;*/
-    font-size: 24px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 900;
     letter-spacing: 0;
@@ -359,7 +362,7 @@ p.para-second-home {
 
 a.anchor-network {
     color: #15A2A6;
-    /*font-family: "Crimson Text";*/
+       font-family: CrimsonText-SemiBold;
     font-size: 20px;
        font-weight: 600;
     letter-spacing: 1.13px;
@@ -440,6 +443,14 @@ a.anchor-read.about.brandds {
         padding-bottom: 50px;
 
     }
+    .about-our h1
+    {
+        padding-top: 55px;
+    }
+    .about-gap
+    {
+        padding-top: 60px;
+    }
     .order1{
 order:1;
 }
@@ -477,7 +488,7 @@ order:2;
     }
     .sidenav a
     {
-        font-size: 35px;
+        font-size: 30px;
     }
 
 }
@@ -591,16 +602,23 @@ a.anchor-read.about.brandds {
     background-size: cover;
     min-height: 500px;
 }
+.AboutBanner1{
+    background: url(img/Bitmap.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
 .about-gap{
     font-size: 30px;
     line-height: 36px;
 }
 .imgae-founder{
     background: url(img/about.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 360px !important;  
+    min-height: 500px !important;  
 }
 .about-meet {
     min-height: 634px;
@@ -610,7 +628,7 @@ a.anchor-read.about.brandds {
     background-color: transparent;
 }
 .about-sweet {
-    padding-top: 130px;
+    padding-top: 180px;
     text-align: right;
     padding-right: 15px;
 }
@@ -627,7 +645,7 @@ section.about-founder .col-lg-9.col-md-6.col-sm-12{
     text-align: right;
 }
 .about-our h1 {
-    font-size: 50px;
+    font-size: 60px;
     padding-right: 15px;
 }
 /*Media Query*/
@@ -743,6 +761,10 @@ img.img-flag1 {
     {
         padding-top:0;
     }
+    .button-pro a
+    {
+        top: 0;
+    }
     .about-meet
     {
         min-height: auto;
@@ -769,7 +791,7 @@ img.img-flag1 {
 
 a.anchor-next {
     color: #FFFFFF;
-    /*font-family: "Crimson Text";*/
+    font-family: "Crimson Text";
     font-size: 22px;
     text-decoration: none;
     font-weight: 600;
@@ -797,6 +819,15 @@ a.anchor-next {
 }
 
 
+.about-gap
+{
+    line-height: 40px !important;
+}
+p.mregular.about-biz
+{
+    line-height: 23px !important;
+}
+
 
 @media(min-width: 1440px) and (max-width: 1920px)
 {
@@ -821,10 +852,10 @@ a.anchor-next {
     padding-right: 50px;
 }
 p.mregular.about-biz {
-        font-family: Montserrat-Medium;
+        font-family: Montserrat-Regular;
     font-size: 21px;
     letter-spacing: 0;
-    line-height: 33px;
+    line-height: 28px;
     color: #000000;
     padding-right: 120px;
 }
@@ -846,10 +877,10 @@ p.mregular.about-biz {
     padding-right: 50px;
 }
 p.mregular.about-biz {
-        font-family: Montserrat-Medium;
+        font-family: Montserrat-Regular;
     font-size: 18px;
     letter-spacing: 0;
-    line-height: 33px;
+    line-height: 28px;
     color: #000000;
     padding-right: 120px;
 }
@@ -916,11 +947,12 @@ p.mregular.about-biz {
     margin-left: 65px;
     padding-right: 50px;
 }
+
 p.mregular.about-biz {
-    font-family: Montserrat-Medium;
+    font-family: Montserrat-Regular;
     font-size: 14px;
     letter-spacing: 0;
-    line-height: 33px;
+    line-height: 28px;
     color: #000000;
     padding-right: 80px;
 }
@@ -1070,6 +1102,10 @@ h2.head-artist {
 
 @media(min-width: 1440px) and (max-width: 1599px)
 {
+    .bomre-img img
+{
+    width: 650px;
+}
     h1.head-box
     {
         font-size: 33px;
@@ -1139,6 +1175,313 @@ h2.head-artist {
     background-image: url('img/c.png');
     background-size: cover;
      height: 699.75px;
-       width: 1160.25px;
+     
    /*width:100%;*/
  }
+
+
+ @media(max-width: 767px)
+ {
+    body
+    {
+        overflow-x: hidden;
+    }
+    .bomre-img img
+    {
+        width: 100%;
+    }
+    .margin-t-b
+    {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .opennavv
+    {
+        margin: 0;
+    }
+    .banner-content h2
+    {
+        font-size: 35px;
+    }
+    .servicebanner
+    {
+        min-height: auto;
+    }
+    .container.banner-content1 h2
+    {
+        line-height: 110px;
+        padding-top: 0;
+        padding-bottom: 20px;
+        font-size: 45px;
+    }
+    h1.head-creator
+    {
+        font-size: 36px;
+    }
+    .box-artist p
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    a.anchor-network
+    {
+        top: 32px;
+    }
+    img.img-artist
+    {
+        height: 250px;
+    }
+    .AboutBanner
+    {
+        min-height: auto;
+    }
+    .about-our h1
+    {
+        text-align: center;
+        font-size: 40px;
+    }
+    .about-sweet h6
+    {
+        text-align: center;
+        font-size: 32px;
+    }
+    .about-gap
+    {
+        padding-left: 20px;
+    }
+    .about-biz
+    {
+        padding-left: 20px;
+    }
+    h1.head-leader
+    {
+        padding-top: 0;
+    }
+    .about-sweet.service-sweet h6
+    {
+        text-align: center;
+        font-size: 16px;
+    }
+    .service-head
+    {
+        text-align: center;
+        font-size: 40px;
+        padding-left: 0 !important;
+    }
+
+ }
+
+
+ .service-head
+ {
+    color: #DD4B00; 
+    font-size: 100px;
+    padding-top: 35px;
+    padding-left: 150px;
+        line-height: 53px;
+ }
+
+
+@media(min-width: 768px) and (max-width: 990px)
+{
+    img.img-artist
+    {
+ height: 190px;
+    }
+    .box-artist p
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    a.anchor-network
+    {
+        top: 200px;
+    }
+    .servicebanner
+    {
+        min-height: 400px;
+    }
+    .service-head
+    {
+        padding-left: 0;
+        font-size: 25px;
+    }
+    .about-sweet
+    {
+        padding-right: 0;
+    }
+    .about-our h1
+    {
+        padding-right: 0;
+        font-size: 55px;
+    }
+    .about-sweet h6
+    {
+        padding-left: 0 !important;
+        font-size: 16px;
+    }
+    p.para-mix
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1.head-box
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    body {
+    overflow-x: hidden;
+}
+.about-gap
+  {
+    padding-left: 0 !important;
+    margin-left: 10px !important;
+        font-size: 25px;
+    padding-top: 50px;
+  }
+  .about-our h1
+  {
+        padding-right: 0;
+    font-size: 51px;
+    padding-top: 50px;
+  }
+  p.mregular.about-biz
+  {
+    padding-right: 20px !important;
+        padding-top: 50px;
+    font-size: 14px;
+  }
+}
+
+
+@media(min-width: 990px) and (max-width: 1050px)
+{
+   .service-head
+    {
+        padding-left: 0;
+        font-size: 25px;
+    }
+    .about-sweet
+    {
+        padding-right: 0;
+    }
+    .about-our h1
+    {
+        padding-right: 0;
+        font-size: 55px;
+    }
+    .about-sweet h6
+    {
+        padding-left: 0 !important;
+        font-size: 16px !important;
+    }
+    p.para-mix
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    h1.head-box
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .box-artist p
+    {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    img.img-artist
+    {
+        height: 260px;
+    }
+    .row.row-creators
+    {
+        padding-left: 0 !important;
+    }
+    button.btn-creator
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+        font-weight: normal !important;
+        font-size: 16px;
+    }
+  a.anchor-network
+  {
+    /*font-size: 6px;*/
+    top: 200px;
+  }
+  .about-gap
+  {
+    padding-left: 0 !important;
+    margin-left: 10px !important;
+  }
+  p.mregular.about-biz
+  {
+    padding-right: 40px !important;
+  }
+  .about-sweet h6
+  {
+    font-size: 17px!important;
+  }
+  a.anchor-network i
+  {
+    font-size: 16px !important;
+  }
+}
+
+/*banner*/
+
+.banner-case
+{
+    background-image: url(img/Bitmap1.png);
+    height: 450px;
+    background-size: 100% 100%;
+    position: relative;
+
+}
+
+h1.banner-case-head {
+    color: #FFFFFF;
+    font-family: Montserrat-Bold;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+p.banner-para {
+       font-family: Montserrat-Medium;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+.box-b-1 {
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+}
+
+
+@media(min-width: 1200px) and (max-width: 1920px)
+{
+    .width-limit
+    {
+        max-width: 70% !important;
+    }
+}
+
+.custom-margin
+{
+    margin-top: 20px;
+}
+
+@media(max-width:767px)
+{
+    .list-company
+    {
+        background-image: none;
+    }
+}
