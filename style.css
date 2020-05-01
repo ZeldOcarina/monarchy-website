@@ -116,7 +116,7 @@ html
     font-family: CrimsonText-BoldItalic;
     src: url("fonts/Crimson_Text/CrimsonText-BoldItalic.ttf");
 }
-CrimsonText-SemiBoldItalic
+
 /*Montserrat Fonts*/
 
 .mblack{
@@ -601,7 +601,7 @@ a.anchor-read.about.brandds {
 
 /*About Us*/
 .AboutBanner{
-    background: url(img/heroBanner.jpg);
+    background: url(img/HeroBanner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1562,6 +1562,7 @@ p.banner-para {
     {
         background-image: none;
     }
+
     h1.head-box
     {
         height: auto;
@@ -1714,7 +1715,7 @@ p.italic-para-monarch {
     padding-left: 57px;
     text-align: right;
     line-height: 65px;
-    padding-left: ;
+  
 }
 
 @media(min-width: 1600px) and (max-width:2420px)
@@ -1821,7 +1822,7 @@ p.italic-para-monarch {
 
 .p-bg-c
 {
-    font-size: 16px; !important;
+    font-size: 16px!important;
      font-family: Montserrat-Medium !important;
 }
 
@@ -1888,31 +1889,3 @@ section.about-founder {
     }
 }
 
-@media(min-width:144px) and (max-width: 1599px)
-{
-/*80*/
-.img-banner {
-    padding-top: 70px;
-    padding-bottom: 30px;
-}
-
-ul.navbar-nav.m-auto.home-searching {
-    width: 50%;
-    position: relative;
-    left: 110px;
-}
-}
-
-/*90*/
-@media(min-width: 1600px) and (max-width: 1920px)
-{
-.img-banner {
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
-ul.navbar-nav.m-auto.home-searching {
-    width: 50%;
-    position: relative;
-    left: 80px;
-}
-}
