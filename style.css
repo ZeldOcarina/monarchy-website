@@ -492,6 +492,11 @@ order:2;
     }
 
 }
+.per-head
+{
+    padding-top: 45px;
+}
+
 
     @media(min-width: 768px) and (max-width: 1024px)
    {
@@ -620,6 +625,13 @@ a.anchor-read.about.brandds {
     background-position: center;
     min-height: 500px !important;  
 }
+.client-founder1{
+    background: url(img/consult.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 700px !important;  
+}
 .about-meet {
     min-height: 634px;
 }
@@ -628,12 +640,12 @@ a.anchor-read.about.brandds {
     background-color: transparent;
 }
 .about-sweet {
-    padding-top: 180px;
+    padding-top: 240px;
     text-align: right;
     padding-right: 15px;
 }
 .about-sweet h6{
-    font-size: 33px;
+    font-size: 32px;
 }
 .col-lg-3.col-md-6.col-sm-12.about-meet.bg-primary-col {
     padding-top: 60px;
@@ -931,6 +943,11 @@ p.mregular.about-biz {
     padding-left: 240px;
     text-align: left;
 }
+.img-position-monarchy {
+    position: absolute;
+    left: -230px !important;
+    margin-top: 140px;
+}
 }
 
 .gap
@@ -1031,7 +1048,7 @@ h1.head-home1.about.cboit {
 h1.head-box {
     color: #FFFFFF;
     font-family: "Crimson Text";
-    font-size: 25px;
+    font-size: 31px;
     font-style: italic;
     font-weight: bold;
     letter-spacing: 0;
@@ -1046,14 +1063,14 @@ h1.head-box {
 p.para-mix {
     padding-bottom: 0px;
     font-family: Montserrat-light;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: 0;
     line-height: 15px;
     text-align: center;
     color: #fff;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 
 h1.head-creator {
@@ -1096,15 +1113,22 @@ h2.head-artist {
     font-family: Montserrat-light;
     font-size: 16px;
     font-weight: 600;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 130px;
+    padding-right: 130px;
+    font-weight: normal;
 }
 
+/*80%*/
 @media(min-width: 1440px) and (max-width: 1599px)
 {
     .bomre-img img
 {
     width: 650px;
+}
+.box-artist p
+{
+padding-left: 150px;
+    padding-right: 150px;
 }
     h1.head-box
     {
@@ -1137,10 +1161,15 @@ h2.head-artist {
 {
      h1.head-box
     {
-        font-size: 33px;
+        font-size: 38px;
         line-height: 30px;
         margin-bottom: 15px;
     }
+    .box-artist p
+{
+padding-left: 180px;
+    padding-right: 180px;
+}
     .about-sweet.service-sweet h6 {
     font-size: 24px !important;
     letter-spacing: 0;
@@ -1238,7 +1267,7 @@ h2.head-artist {
     .about-our h1
     {
         text-align: center;
-        font-size: 40px;
+        font-size: 70px;
     }
     .about-sweet h6
     {
@@ -1329,10 +1358,13 @@ h2.head-artist {
     {
         padding-left: 0;
         padding-right: 0;
+        height: 0;
+        padding-bottom: 15px;
     }
     body {
     overflow-x: hidden;
 }
+
 .about-gap
   {
     padding-left: 0 !important;
@@ -1435,11 +1467,56 @@ h2.head-artist {
 
 .banner-case
 {
-    background-image: url(img/Bitmap1.png);
+    /*background-image: url(img/Bitmap1.png);*/
     height: 450px;
+    width: 100%;
     background-size: 100% 100%;
     position: relative;
 
+}
+.bg-0
+{
+    background-image: url(img/Bitmap1.png);
+}
+.bg1
+{
+    background-image: url(img/Bitmap2.png);
+        height: 380px;
+    margin-top: 18px;
+    margin-left: 13px;
+    width: 89%;
+}
+.bg1 .box-b-1 {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.bg2  .box-b-1 {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.bg3  .box-b-1 {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.bg2
+{
+    background-image: url(img/Bitmap3.png);
+        height: 380px;
+    margin-top: 18px;
+    margin-left: 13px;
+    width: 89%;
+}
+.bg3
+{
+    background-image: url(img/Tom.png);
+        height: 380px;
+    margin-top: 18px;
+    margin-left: 13px;
+    width: 89%;
 }
 
 h1.banner-case-head {
@@ -1449,6 +1526,7 @@ h1.banner-case-head {
     font-weight: 500;
     letter-spacing: 0;
     line-height: 26px;
+        white-space: nowrap;
 }
 
 p.banner-para {
@@ -1484,4 +1562,357 @@ p.banner-para {
     {
         background-image: none;
     }
+    h1.head-box
+    {
+        height: auto;
+        padding-bottom: 5px;
+    }
+}
+
+.icon-all {
+    font-size: 20px;
+    float: right;
+    margin-right: 18px;
+    margin-top: 26px;
+    color: #ffff;
+}
+
+img.play-icon {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    height: 120px;
+    position: relative;
+    top: 130px;
+}
+
+
+/*join-page*/
+.left-manage {
+    background: #F1FAFA;
+    padding-left: 130px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.left-manage p {
+    color: #000000;
+    font-family: "Crimson Text";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-top: 25px;
+}
+
+h1 {}
+
+.left-manage h1 {
+    color: #00A3A8;
+    font-family: Montserrat-bold;
+    padding-right: 200px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 43px;
+    padding-top: 15px;
+    font-size: 39px;
+}
+
+.image-join-m
+{
+    background-image: url(img/influencer.png);
+     height: 821px;
+     background-size: cover;
+  /*width: 657px;*/
+}
+
+.box-upper {
+    padding: 20px;
+    background: #ffff;
+    position: relative;
+    left: -200px;
+     width: 510px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+
+p.upper-position {
+    color: #000000;
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 23px;
+    padding-right: 50px;
+}
+
+p.italic-para-monarch {
+    color: #00A3A8;
+    font-family: "Crimson Text";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 28px;
+    padding-right: 276px;
+    /*padding-top: 30px;*/
+}
+
+.img-position-monarchy {
+    position: absolute;
+        left: -180px;
+    margin-top: 140px;
+}
+
+.right-position
+{
+    /*float: right;*/
+}
+
+
+
+@media(max-width: 767px)
+{
+    .AboutBanner1
+    {
+        min-height: auto;
+    }
+    h1.head-leader
+    {
+        padding-top: 50px;      
+    }
+    .left-manage
+    {
+        padding-left: 15px;
+    }
+   .left-manage h1
+   {
+    padding-right: 20px;
+    font-size: 32px;
+   }
+   .image-join-m
+   {
+    height: 500px;
+   }
+   .box-upper
+   {
+    left: 0px;
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 15px;
+   }
+   p.italic-para-monarch
+   {
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+}
+.client-head h1 {
+    font-size: 70px;
+    padding-left: 57px;
+    text-align: right;
+    line-height: 65px;
+    padding-left: ;
+}
+
+@media(min-width: 1600px) and (max-width:2420px)
+{
+    .client-head h1
+    {
+        font-size: 92px;
+        line-height: 75px;
+    }
+    .client-founder1
+    {
+        height: 830px;
+    }
+    .left-manage h1
+    {
+        font-size: 50px;
+        line-height: 55px;
+        padding-right: 300px;
+    }
+    .left-manage p
+    {
+        font-size: 24px;
+    }
+    p.upper-position
+    {
+        font-size: 21px;
+        line-height: 34px;
+        padding-right: 0px;
+    }
+    .box-upper
+    {
+        width: 560px;
+            left: -240px;
+    }
+    p.italic-para-monarch
+    {
+            padding-right: 400px;
+            /*padding-top: 60px;*/
+    }
+    .left-manage.image-right-side {
+    padding-left: 430px;
+}
+}
+
+
+@media(min-width: 1440px) and (max-width: 1599px)
+{
+     .left-manage h1
+    {
+        font-size: 40px;
+        line-height: 55px;
+        padding-right: 300px;
+    }
+    .img-position-monarchy {
+    position: absolute;
+    left: -225px;
+    margin-top: 140px;
+}
+    .left-manage p
+    {
+        font-size: 22px;
+    }
+    p.upper-position
+    {
+        font-size: 18px;
+        line-height: 34px;
+        padding-right: 0px;
+    }
+    .box-upper
+    {
+        width: 560px;
+            left: -240px;
+    }
+    p.italic-para-monarch
+    {
+            padding-right: 350px;
+            /*padding-top: 60px;*/
+    }  
+    .left-manage.image-right-side {
+    padding-left: 330px;
+} 
+.client-head h1
+{
+    font-size: 80px;
+}
+}
+
+@media(min-width: 1100px) and (max-width: 1400px)
+{
+     .left-manage.image-right-side {
+    padding-left: 250px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+} 
+}
+.banner-case
+{
+    transition: all 500ms ease 0s;
+}
+.banner-case:hover
+{
+    margin-top: -10px;
+}
+
+.p-bg-c
+{
+    font-size: 16px; !important;
+     font-family: Montserrat-Medium !important;
+}
+
+
+@media(min-width: 1200px) and (max-width: 1920px)
+{
+ p.mregular.about-biz.p-bg-c {
+    margin-left: -35px;
+    padding-right: 150px;
+    padding-top: 7px;
+}
+}
+
+@media(max-width: 767px)
+{
+    .client-head h1
+    {
+        text-align: center;
+        padding-left: 0;
+    }
+    .client-founder1
+    {
+        /*background-image: none;*/
+    }
+    .box-leader .img-avtar
+    {
+        height: auto;
+    }
+    p.mregular.about-biz.p-bg-c {
+    margin-top: -120px;
+}
+.img-bg 
+{
+    display: none;
+}
+.img-bg1
+{
+    display: none;
+}
+.main-copy:before
+{
+        content: '';
+    border-right: 2px solid #e1e1e1;
+    position: absolute;
+    z-index: 1243;
+     width: 0px !important; 
+     height: 0px !important; 
+     left: 0px !important;
+}
+.imgae-founder
+{
+    min-height: 230px !important;
+}
+section.about-founder {
+    margin-top: -6px;
+}
+}
+
+@media(min-width: 768px)
+{
+    .padding-left-10
+    {
+        padding-left: 15px;
+    }
+}
+
+@media(min-width:144px) and (max-width: 1599px)
+{
+/*80*/
+.img-banner {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+ul.navbar-nav.m-auto.home-searching {
+    width: 50%;
+    position: relative;
+    left: 110px;
+}
+}
+
+/*90*/
+@media(min-width: 1600px) and (max-width: 1920px)
+{
+.img-banner {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+ul.navbar-nav.m-auto.home-searching {
+    width: 50%;
+    position: relative;
+    left: 80px;
+}
 }
