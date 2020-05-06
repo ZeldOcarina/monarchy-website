@@ -369,7 +369,7 @@ a.anchor-network {
     line-height: 33px;
     text-decoration: none;
         position: relative;
-    top: 400px;
+    top: 350px;
    
 }
 
@@ -617,7 +617,7 @@ a.anchor-read.about.brandds {
 }
 /*About Us*/
 .AboutBanner{
-    background: url(img/heroBanner.jpg);
+    background: url(img/HeroBanner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -935,7 +935,7 @@ p.mregular.about-biz {
 }
 .img-bg1
 {
-    background-image: url(img/video.jpg);
+    background-image: url(img/video.JPG);
     background-size: cover;
     background-position: center;
     background-origin: padding-box;
