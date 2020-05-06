@@ -116,7 +116,7 @@ html
     font-family: CrimsonText-BoldItalic;
     src: url("fonts/Crimson_Text/CrimsonText-BoldItalic.ttf");
 }
-
+CrimsonText-SemiBoldItalic
 /*Montserrat Fonts*/
 
 .mblack{
@@ -599,9 +599,25 @@ a.anchor-read.about.brandds {
     min-height: 500px;  
 }
 
+.careerbanner
+{
+  background: url(img/career.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;    
+}
+.mediabanner
+{
+    background: url(img/media.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;   
+}
 /*About Us*/
 .AboutBanner{
-    background: url(img/HeroBanner.jpg);
+    background: url(img/heroBanner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1048,7 +1064,7 @@ h1.head-home1.about.cboit {
 h1.head-box {
     color: #FFFFFF;
     font-family: "Crimson Text";
-    font-size: 31px;
+    font-size: 29px;
     font-style: italic;
     font-weight: bold;
     letter-spacing: 0;
@@ -1155,6 +1171,10 @@ padding-left: 150px;
 {
         padding-left: 120px;
 }
+.row.row-creators1
+{
+        padding-right: 120px;
+}
 }
 
 @media(min-width: 1600px) and (max-width:1920px)
@@ -1189,6 +1209,10 @@ padding-left: 180px;
 {
         padding-left: 150px;
 }
+.row.row-creators1
+{
+        padding-right: 150px;
+}
 }
 
 @media(min-width:992px) and (max-width: 1400px)
@@ -1196,6 +1220,10 @@ padding-left: 180px;
 .row.row-creators
 {
         padding-left: 90px;
+}
+.row.row-creators1
+{
+        padding-right: 90px;
 }
 }
 
@@ -1207,7 +1235,10 @@ padding-left: 180px;
      
    /*width:100%;*/
  }
-
+.size-media
+{
+    font-size: 65px !important;
+}
 
  @media(max-width: 767px)
  {
@@ -1233,6 +1264,10 @@ padding-left: 180px;
         font-size: 35px;
     }
     .servicebanner
+    {
+        min-height: auto;
+    }
+    .mediabanner
     {
         min-height: auto;
     }
@@ -1329,6 +1364,10 @@ padding-left: 180px;
     .servicebanner
     {
         min-height: 400px;
+    }
+    .mediabanner
+    {
+          min-height: 400px; 
     }
     .service-head
     {
@@ -1430,6 +1469,10 @@ padding-left: 180px;
     .row.row-creators
     {
         padding-left: 0 !important;
+    }
+     .row.row-creators1
+    {
+        padding-right: 0 !important;
     }
     button.btn-creator
     {
@@ -1562,7 +1605,6 @@ p.banner-para {
     {
         background-image: none;
     }
-
     h1.head-box
     {
         height: auto;
@@ -1622,7 +1664,14 @@ h1 {}
 
 .image-join-m
 {
-    background-image: url(img/influencer.png);
+    background-image: url(img/join2.png);
+     height: 821px;
+     background-size: cover;
+  /*width: 657px;*/
+}
+.image-join-m1
+{
+    background-image: url(img/join1.png);
      height: 821px;
      background-size: cover;
   /*width: 657px;*/
@@ -1715,7 +1764,7 @@ p.italic-para-monarch {
     padding-left: 57px;
     text-align: right;
     line-height: 65px;
-  
+    padding-left: ;
 }
 
 @media(min-width: 1600px) and (max-width:2420px)
@@ -1822,7 +1871,7 @@ p.italic-para-monarch {
 
 .p-bg-c
 {
-    font-size: 16px!important;
+    font-size: 16px; !important;
      font-family: Montserrat-Medium !important;
 }
 
@@ -1889,3 +1938,223 @@ section.about-founder {
     }
 }
 
+@media(min-width:144px) and (max-width: 1599px)
+{
+/*80*/
+.img-banner {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+ul.navbar-nav.m-auto.home-searching {
+    width: 50%;
+    position: relative;
+    left: 110px;
+}
+}
+
+/*90*/
+@media(min-width: 1600px) and (max-width: 1920px)
+{
+.img-banner {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+ul.navbar-nav.m-auto.home-searching {
+    width: 50%;
+    position: relative;
+    left: 80px;
+}
+}
+
+h1.cboit.service-head.service-over-1 {
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.font-size-big
+{
+    font-size: 35px;
+}
+
+/*carrer*/
+
+h2.head-career {
+    color: #FFFFFF;
+    font-family: "Crimson Text";
+    font-size: 34px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 36px;
+    
+}
+
+p.para-career {
+    color: #FFFFFF;
+    font-family: Montserrat-Regular;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 18px;
+    padding-right: 120px;
+    padding-top: 30px;
+}
+
+button.btn-career {
+    height: 40px;
+    width: 150px;
+    color: #FC5600;
+    font-family: "Crimson Text";
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-align: center;
+    background: #fff;
+    border: none;
+    margin-top: 8px;
+}
+
+p.para-footer-all {
+    padding-top: 30px;
+    color: #FFFFFF;
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+    padding-right: 100px;
+}
+
+input.form-input {
+    width: 100%;
+    height: 45px;
+    padding-left: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-top: 20px;
+}
+input.form-input::placeholder {
+    color: #fff;
+    color: #FFFFFF;
+    font-family: Montserrat-Regular;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 15px;
+}
+input.form-input1::placeholder {
+    color: #fff;
+    color: #FFFFFF;
+    font-family: Montserrat-Regular;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 15px;
+    width: calc(100% - 133px);
+}
+
+.form-input1 {
+    margin-top: 20px;
+    background: transparent;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.form-input::focus
+{
+    box-shadow: none;
+    outline: none;
+    border: none;
+    outline-width: 0;
+}
+
+.from {
+    display: flex !important;
+}
+
+
+
+    button.btn-creator.btn-custom-media {
+    position: absolute;
+    right: 30px;
+    text-align: right;
+    padding-right: 20px;
+
+
+
+}
+
+img.img-play {
+    position: absolute;
+    height: 100px;
+    top: 136px;
+    left: 181px;
+}
+
+img.img-artist.img1-media {
+    height: 120px;
+    width: 80%;
+}
+
+
+@media(min-width: 1100px) and (max-width: 1920px)
+{
+    .row.row-custom-media {
+    padding-left: 140px;
+    padding-right: 70px;
+}
+}
+
+p.para-artist-media {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+@media(max-width: 767px)
+{
+    button.btn-creator.btn-custom-media 
+    {
+    position: initial;
+    right: 30px;
+    text-align: center;
+    padding-right: 0;
+    margin: 20px auto;
+    display: block;
+   }
+   img.img-play {
+    position: absolute;
+    height: 100px;
+    top: 115px;
+    left: 154px;
+}
+.careerbanner
+{
+    min-height: auto;
+}
+p.para-career
+{
+    padding-right: 0;
+}
+p.para-footer-all
+{
+    padding-right: 0;
+}
+h2.head-career
+{
+    padding-top: 40px;
+}
+}
+
+
+@media(min-width: 412px) and (max-width: 420px)
+{
+    img.img-play
+    {
+            left: 170px;
+    }
+}
