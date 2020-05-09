@@ -350,7 +350,7 @@ p.para-second-home {
     color: #000000;
     font-size: 16px;
     letter-spacing: 0;
-    padding-right: 50px;
+    padding-right: 75px;
    /*font-family: Montserrat-Medium;*/
         letter-spacing: 0;
     line-height: 26px;
@@ -369,7 +369,7 @@ a.anchor-network {
     line-height: 33px;
     text-decoration: none;
         position: relative;
-    top: 350px;
+    top: 400px;
    
 }
 
@@ -617,7 +617,7 @@ a.anchor-read.about.brandds {
 }
 /*About Us*/
 .AboutBanner{
-    background: url(img/HeroBanner.jpg);
+    background: url(img/heroBanner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -935,10 +935,14 @@ p.mregular.about-biz {
 }
 .img-bg1
 {
-    background-image: url(img/video.JPG);
+    background-image: url(img/video.png);
     background-size: cover;
     background-position: center;
     background-origin: padding-box;
+}
+.p-t-60
+{
+    padding-top: 150px;
 }
 
 .margin-t-b
@@ -1555,7 +1559,7 @@ padding-left: 180px;
 }
 .bg3
 {
-    background-image: url(img/tom.png);
+    background-image: url(img/Tom.png);
         height: 380px;
     margin-top: 18px;
     margin-left: 13px;
@@ -1905,11 +1909,12 @@ p.italic-para-monarch {
 }
 .img-bg 
 {
-    display: none;
+    /*display: none;*/
 }
 .img-bg1
 {
-    display: none;
+    /*display: none;*/
+    order: 2;
 }
 .main-copy:before
 {
@@ -2157,4 +2162,19 @@ h2.head-career
     {
             left: 170px;
     }
+}
+
+@media(max-width: 767px)
+{
+    .p-t-60
+    {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+}
+
+p.padding-personal
+{
+    padding-right: 140px;
 }
