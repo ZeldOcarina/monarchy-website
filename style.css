@@ -288,7 +288,7 @@ span.opennavv i {
     top: 25px;
 }
 .button-pro-left{
-    margin-top: 90px;
+    margin-top: 30px;
 }
 .button-pro-left a {
     font-family: CrimsonText-SemiBoldItalic;
@@ -935,14 +935,29 @@ p.mregular.about-biz {
 }
 .img-bg1
 {
-    background-image: url(img/video.png);
+    background-image: url(img/home2.png);
+    background-size: cover;
+    background-position: center;
+    background-origin: padding-box;
+}
+.img-bg3
+{
+    background-image: url(img/home1.png);
+    background-size: cover;
+    background-position: center;
+    background-origin: padding-box;
+}
+.img-bg4
+{
+    background-image: url(img/home3.png);
     background-size: cover;
     background-position: center;
     background-origin: padding-box;
 }
 .p-t-60
 {
-    padding-top: 150px;
+    padding-top: 230px;
+    padding-bottom: 230px;
 }
 
 .margin-t-b
@@ -959,9 +974,10 @@ p.mregular.about-biz {
         padding: 300px 0px 50px 0px;
     }
     .spotlight-client {
-    max-width: 750px;
-    padding-left: 240px;
+       max-width: 750px;
+    padding-left: 200px;
     text-align: left;
+    padding-right: 100px;
 }
 .img-position-monarchy {
     position: absolute;
