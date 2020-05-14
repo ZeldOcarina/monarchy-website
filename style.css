@@ -619,7 +619,7 @@ a.anchor-read.about.brandds {
 }
 /*About Us*/
 .AboutBanner{
-    background: url(img/heroBanner.jpg);
+    background: url(img/HeroBanner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1591,7 +1591,7 @@ padding-left: 180px;
 }
 .bg3
 {
-    background-image: url(img/Tom.png);
+    background-image: url(img/tom.png);
         height: 380px;
     margin-top: 18px;
     margin-left: 13px;
