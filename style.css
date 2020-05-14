@@ -438,14 +438,16 @@ a.anchor-read.about.brandds {
 {
     .spotlight-client
     {
-        padding-left: 35px;
+        padding-left: 25px;
+        padding-right: 25px;
         padding-top: 50px;
         padding-bottom: 50px;
 
     }
+
     .about-our h1
     {
-        padding-top: 55px;
+        padding-top: 50px;
     }
     .about-gap
     {
@@ -635,18 +637,19 @@ a.anchor-read.about.brandds {
     line-height: 36px;
 }
 .imgae-founder{
-    background: url(img/about.jpg);
+    background: url(img/about.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 500px !important;  
+    min-height: 850px !important;  
 }
 .client-founder1{
     background: url(img/consult.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 700px !important;  
+    min-height: 600px !important;  
+
 }
 .about-meet {
     min-height: 634px;
@@ -656,7 +659,7 @@ a.anchor-read.about.brandds {
     background-color: transparent;
 }
 .about-sweet {
-    padding-top: 240px;
+    padding-top: 190px;
     text-align: right;
     padding-right: 15px;
 }
@@ -787,7 +790,7 @@ img.img-flag1 {
 {
     .about-sweet
     {
-        padding-top:0;
+        padding-top:15px !important;
     }
     .button-pro a
     {
@@ -893,6 +896,10 @@ p.mregular.about-biz {
 @media(min-width: 1440px) and (max-width: 1599px)
 
 {
+    p.para-about-line
+    {
+        bottom: 125px !important;
+    }
  .about-sweet h6
      {
         font-size: 40px !important;
@@ -972,6 +979,11 @@ p.mregular.about-biz {
     .banner-content-bottom
     {
         padding: 300px 0px 50px 0px;
+    }
+    p.para-about-line
+    {
+        bottom: 127px !important;
+        font-size: 18px !important;
     }
     .spotlight-client {
        max-width: 750px;
@@ -1104,7 +1116,7 @@ p.para-mix {
     letter-spacing: 0;
     line-height: 15px;
     text-align: center;
-    color: #fff;
+       color: rgba(255,255,255,0.7);
     padding-left: 75px;
     padding-right: 75px;
 }
@@ -1161,6 +1173,10 @@ h2.head-artist {
 {
     width: 650px;
 }
+.client-founder1
+{
+    height: 620px !important;
+}
 .box-artist p
 {
 padding-left: 150px;
@@ -1168,7 +1184,7 @@ padding-left: 150px;
 }
     h1.head-box
     {
-        font-size: 33px;
+        font-size: 30px;
         line-height: 30px;
         margin-bottom: 15px;
     }
@@ -1652,7 +1668,7 @@ img.play-icon {
 
 /*join-page*/
 .left-manage {
-    background: #F1FAFA;
+    /*background: #F1FAFA;*/
     padding-left: 130px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1660,13 +1676,13 @@ img.play-icon {
 
 .left-manage p {
     color: #000000;
-    font-family: "Crimson Text";
+    font-family: Montserrat-Regular;
     font-size: 18px;
-    font-style: italic;
-    font-weight: 600;
+    /*font-style: italic;*/
+    font-weight: 500;
     letter-spacing: 0;
     line-height: 24px;
-    padding-top: 25px;
+    padding-top: 40px;
 }
 
 h1 {}
@@ -1674,12 +1690,12 @@ h1 {}
 .left-manage h1 {
     color: #00A3A8;
     font-family: Montserrat-bold;
-    padding-right: 200px;
+    padding-right: 30px;
     font-weight: bold;
     letter-spacing: 0;
     line-height: 43px;
     padding-top: 15px;
-    font-size: 39px;
+    font-size: 30px;
 }
 
 .image-join-m
@@ -1712,10 +1728,10 @@ h1 {}
 p.upper-position {
     color: #000000;
     font-family: Montserrat-Regular;
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 0;
     line-height: 23px;
-    padding-right: 50px;
+    /*padding-right: 50px;*/
 }
 
 p.italic-para-monarch {
@@ -1800,9 +1816,9 @@ p.italic-para-monarch {
     }
     .left-manage h1
     {
-        font-size: 50px;
+        font-size: 40px;
         line-height: 55px;
-        padding-right: 300px;
+        /*padding-right: 80px;*/
     }
     .left-manage p
     {
@@ -1834,9 +1850,9 @@ p.italic-para-monarch {
 {
      .left-manage h1
     {
-        font-size: 40px;
+        font-size: 35px;
         line-height: 55px;
-        padding-right: 300px;
+        /*padding-right: 80px;*/
     }
     .img-position-monarchy {
     position: absolute;
@@ -1945,6 +1961,12 @@ p.italic-para-monarch {
 .imgae-founder
 {
     min-height: 230px !important;
+    display: none;
+}
+p.para-about-line
+{
+    position: inherit !important;
+        padding-top: 40px;
 }
 section.about-founder {
     margin-top: -6px;
@@ -2193,4 +2215,114 @@ h2.head-career
 p.padding-personal
 {
     padding-right: 140px;
+}
+
+p.para-about-line {
+    color: #FFFFFF;
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 27px;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: absolute;
+    bottom: 70px;
+}
+
+
+.bg-banner-join
+{
+    background-image: url(img/banner-join.png);
+    height: 400px;
+    background-size: cover;
+}
+
+img.img-fluid.img-custom-join {
+    margin-bottom: 20px;
+      margin-left: 15px;
+    width: 97%;
+}
+
+
+@media(max-width: 767px)
+{
+    p.padding-personal
+    {
+        padding-right: 0;
+    }
+    .form-control1
+    {
+        width: 80% !important;
+    margin-bottom: 30px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    font-size: 14px;
+    font-family: Montserrat-regular;
+    color: #000000;
+    opacity: 60%;
+     padding-left: 0  !important; 
+    margin: 30px auto  !important;
+    display: block  !important;
+    float: none  !important;
+    }
+    .form-input1-text
+    {
+             width: 80% !important;
+
+      padding-left: 15px  !important; 
+    margin: 10px auto  !important;
+    display: block  !important;
+    float: none  !important;   
+    }
+    input.form-submit
+    {
+        float: none !important;
+        margin: 20px auto !important;
+        display: block !important;
+
+    }
+    img.img-fluid.img-custom-join {
+    margin-bottom: 20px;
+ 
+    width: 95%;
+    margin-left: 10px;
+}
+.left-manage h1 {
+    padding-right: 20px;
+    font-size: 25px;
+    line-height: 30px;
+}
+.bg-banner-join
+{
+        height: 150px;
+}
+.client-founder1
+{
+    min-height: 300px !important;
+}
+.bg1
+{
+    height: 250px;
+}
+.bg2
+{
+    height: 250px;
+}
+p.banner-para
+{
+    font-size: 16px;
+}
+h1.banner-case-head
+{
+    font-size: 22px;
+}
+.bg3
+{
+    height: 250px;
+}
+img.play-icon
+{
+    top: 60px;
+}
 }
