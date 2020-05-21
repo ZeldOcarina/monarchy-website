@@ -1589,7 +1589,7 @@ padding-left: 180px;
 {
     background-image: url(img/Bitmap2.png);
         height: 380px;
-    margin-top: 18px;
+    margin-top: 30px;
     margin-left: 13px;
     width: 89%;
 }
@@ -1613,7 +1613,7 @@ padding-left: 180px;
 {
     background-image: url(img/Bitmap3.png);
         height: 380px;
-    margin-top: 18px;
+    margin-top: 30px;
     margin-left: 13px;
     width: 89%;
 }
@@ -1621,7 +1621,7 @@ padding-left: 180px;
 {
     background-image: url(img/tom.png);
         height: 380px;
-    margin-top: 18px;
+    margin-top: 29px;
     margin-left: 13px;
     width: 89%;
 }
@@ -1930,7 +1930,9 @@ p.italic-para-monarch {
 }
 .banner-case:hover
 {
-    margin-top: -10px;
+    margin-top: 5px;
+      box-shadow: 14px 14px 30px 0 rgba(72,72,72,0.5);
+
 }
 
 .p-bg-c

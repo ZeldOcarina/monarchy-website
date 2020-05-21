@@ -44,6 +44,65 @@ p.mregular.about-biz.p-bg-c {
    padding-top: 0;
 }
 }
+
+.open-video-modal
+{
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: #fff;
+   display: none;
+}
+
+.open-video-modal1
+{
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: #fff;
+   display: none;
+}
+
+.inner-modal {
+    width: 500px;
+    margin: 12% auto;
+}
+.close img {
+    height: 80px;
+    position: absolute;
+    left: 50px;
+    top: 38px;
+}
+
+.close1 img {
+    height: 80px;
+    position: absolute;
+    left: 50px;
+    top: 38px;
+}
+@media(max-width: 767px)
+{
+.inner-modal {
+    width: 93%;
+    margin: 65% auto;
+}
+.close img {
+    height: 70px;
+    position: absolute;
+    left: 10px;
+    top: 38px;
+}
+.close1 img {
+    height: 70px;
+    position: absolute;
+    left: 10px;
+    top: 38px;
+}
+}
       </style>
    </head>
    <body>
@@ -147,7 +206,7 @@ p.mregular.about-biz.p-bg-c {
                   </div>
                </div>
                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                  <div class="banner-case bg3">
+                  <div id="open-video1" class="banner-case bg3">
                     <img src="img/play-icon.svg" class="play-icon">
                     <!-- <i class="fas fa-ellipsis-h icon-all"></i> -->
                      <div class="box-b-1">
@@ -188,9 +247,9 @@ p.mregular.about-biz.p-bg-c {
                      </div>
                   </div>
                </div>
-               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                  <div class="banner-case bg3">
-                    <img src="img/play-icon.svg" class="play-icon">
+               <div  class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                  <div id="open-video" class="banner-case bg3">
+                    <img  src="img/play-icon.svg" class="play-icon">
                     <!-- <i class="fas fa-ellipsis-h icon-all"></i> -->
                      <div class="box-b-1">
                         <h1 class="banner-case-head">Tom Cummins</h1>
@@ -202,6 +261,7 @@ p.mregular.about-biz.p-bg-c {
             </div>
          </div>
       </section>
+
       <section class="copyright bg-primary-col container-fluid gap">
          <div class="row">
             <div class="col-lg-8 col-md-12 col-sm-12">
@@ -223,6 +283,26 @@ p.mregular.about-biz.p-bg-c {
             </div>
          </div>
       </section>
+
+      <div class="open-video-modal">
+         <!-- <div class="blur"></div> -->
+         <div class="close">
+            <img src="https://salesjet.now.sh/static/media/chevron-back-circle-outline.d9f27d58.svg">
+         </div>
+          <div class="inner-modal">
+         <iframe width="100%" height="400" src="https://www.youtube.com/embed/ex7rlA5n2FM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      </div>
+
+      <div class="open-video-modal1">
+         <!-- <div class="blur"></div> -->
+         <div class="close1">
+            <img src="https://salesjet.now.sh/static/media/chevron-back-circle-outline.d9f27d58.svg">
+         </div>
+          <div class="inner-modal">
+         <iframe width="100%" height="400" src="https://www.youtube.com/embed/VUvesqdS1Eo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      </div>
       <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/app.js"></script>
@@ -236,6 +316,37 @@ p.mregular.about-biz.p-bg-c {
            document.getElementById("mySidenav").style.width = "0";
             
          }
+
+         $(document).ready(function(){
+         $("#open-video").click(function(){
+         $(".open-video-modal").fadeIn();
+         });
+         $(".blur").click(function(){
+         $(".open-video-modal").fadeOut();
+         });
+
+         $(".close").click(function(){
+         $(".open-video-modal").fadeOut();
+          
+         });
+
+         
+         });
+         $(document).ready(function(){
+         $("#open-video1").click(function(){
+         $(".open-video-modal1").fadeIn();
+         });
+         $(".blur").click(function(){
+         $(".open-video-modal").fadeOut();
+         });
+
+         $(".close1").click(function(){
+         $(".open-video-modal1").fadeOut();
+          
+         });
+
+         
+         });
       </script>
    </body>
 </html>
