@@ -1927,6 +1927,7 @@ p.italic-para-monarch {
 .banner-case
 {
     transition: all 500ms ease 0s;
+    cursor: pointer;
 }
 .banner-case:hover
 {
