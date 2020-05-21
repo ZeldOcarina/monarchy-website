@@ -1587,7 +1587,72 @@ padding-left: 180px;
 }
 .bg1
 {
-    background-image: url(img/Bitmap2.png);
+    background-image: url(img/c8.png) !important;
+        height: 380px;
+    margin-top: 30px;
+    margin-left: 13px;
+    width: 89%;
+}
+.bg2
+{
+    background-image: url(img/c2.png);
+        height: 380px;
+    margin-top: 30px;
+    margin-left: 13px;
+    width: 89%;
+}
+.bg3
+{
+    background-image: url(img/c3.png);
+        height: 380px;
+    margin-top: 30px;
+    margin-left: 13px;
+    width: 89%;
+}
+.bg4
+{
+    background-image: url(img/c8.png);
+        height: 380px;
+    margin-top: 30px;
+    margin-left: 13px;
+    width: 89%;
+}
+
+.bg5
+{
+    background-image: url(img/c7.png);
+        height: 380px;
+    margin-top: 30px;
+    margin-left: 13px;
+    width: 89%;
+}
+.bg6
+{
+    background-image: url(img/c4.png);
+        height: 380px;
+    margin-top: 30px;
+    margin-left: 13px;
+    width: 89%;
+}
+.bg7
+{
+    background-image: url(img/c5.png);
+        height: 380px;
+    margin-top: 30px;
+    margin-left: 13px;
+    width: 89%;
+}
+.bg8
+{
+    background-image: url(img/c6.png);
+        height: 380px;
+    margin-top: 30px;
+    margin-left: 13px;
+    width: 89%;
+}
+.bg1
+{
+    background-image: url(img/c1.png);
         height: 380px;
     margin-top: 30px;
     margin-left: 13px;
@@ -1609,22 +1674,7 @@ padding-left: 180px;
     left: 16px;
 }
 
-.bg2
-{
-    background-image: url(img/Bitmap3.png);
-        height: 380px;
-    margin-top: 30px;
-    margin-left: 13px;
-    width: 89%;
-}
-.bg3
-{
-    background-image: url(img/tom.png);
-        height: 380px;
-    margin-top: 29px;
-    margin-left: 13px;
-    width: 89%;
-}
+
 
 h1.banner-case-head {
     color: #FFFFFF;
@@ -1645,7 +1695,7 @@ p.banner-para {
 
 .box-b-1 {
     position: absolute;
-    bottom: 60px;
+    bottom: 10px;
     left: 30px;
 }
 
