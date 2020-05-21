@@ -961,6 +961,34 @@ p.mregular.about-biz {
     background-position: center;
     background-origin: padding-box;
 }
+.img-bg5
+{
+    background-image: url(img/home-4.png);
+    background-size: cover;
+    background-position: center;
+    background-origin: padding-box;
+}
+.img-bg-6
+{
+    background-image: url(img/home-3.png);
+    background-size: cover;
+    background-position: center;
+    background-origin: padding-box;
+}
+.img-bg-7
+{
+    background-image: url(img/home-2.png);
+    background-size: cover;
+    background-position: center;
+    background-origin: padding-box;
+}
+.img-bg-8
+{
+    background-image: url(img/zoom-background.png);
+    background-size: cover;
+    background-position: center;
+    background-origin: padding-box;
+}
 .p-t-60
 {
     padding-top: 230px;
