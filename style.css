@@ -2324,10 +2324,45 @@ p.para-about-line {
     background-size: cover;
 }
 
+.bg-banner-body
+{
+  
+     background-image: url(img/banner-body-last.png);
+    height: 350px;
+    background-size: cover;
+}
+.bg-banner-sephoria
+{
+  
+     background-image: url(img/banner-sephoria.png);
+    height: 350px;
+    background-size: cover;
+}
+.bg-banner-global
+{
+  background-image: url(img/banner-global-serious.png);
+    height: 350px;
+    background-size: cover;   
+}
+@media(max-width: 767px)
+{
+    .bg-banner-body
+    {
+        height: 150px;
+    }
+    .bg-banner-global
+    {
+        height: 150px;
+    }
+    .bg-banner-sephoria
+    {
+        height: 150px;
+    }
+}
 img.img-fluid.img-custom-join {
     margin-bottom: 20px;
-      margin-left: 15px;
-    width: 97%;
+      margin-left: 70px;
+    width: 90%;
 }
 
 
