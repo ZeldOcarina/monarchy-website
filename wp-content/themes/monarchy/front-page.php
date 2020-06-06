@@ -14,6 +14,13 @@
 
 get_header(); ?>
 
+<style type="text/css">
+        video#myVideo {
+    height: 100%;
+    width: 100%;
+}
+</style>
+
 <body>
    <section class="bg-primary-col">
       <section class="banner">
@@ -27,8 +34,20 @@ get_header(); ?>
                   <span class="opennavv" style="cursor:pointer" onclick="openNav()"><img src="<?php echo get_stylesheet_directory_uri();?>/img/Menu-icon.svg"/></span>
          
          </nav>
+
+           <video autoplay muted loop id="myVideo">
+              <source src="img/Hollywood Open Mic.mp4">
+              Your browser does not support HTML5 video.
+           </video>
+
          <div class="container banner-content"> 
-            <h2 class="mbold text-center text-white"><?php the_field('banner_text','5'); ?> <span class="brandd"><?php the_field('brands_text','5'); ?></span> <?php the_field('brands_media_text','5'); ?></h2>
+          <h2 class="mbold text-center text-white">Where <span class="brandd"> brands
+          
+
+            </span> become  
+  <a href="" class="typewrite" data-period="2000" data-type='[ " media", " social", "bigger" ]' style="color: #fc5600;">
+    <span class="wrap"></span>
+  </a></h2>
             <div class="button-pro">
                <a href="<?php the_field('banner_button_url','5'); ?>" class="anchor-read-more cseboit"><?php the_field('banner_button_text','5'); ?></a>
             </div>
@@ -245,6 +264,63 @@ get_header(); ?>
         </div>
    </section>
   
+<script type="text/javascript">
+ var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
 
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+</script>
 <?php
 get_footer();
