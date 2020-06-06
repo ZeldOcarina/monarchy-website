@@ -177,8 +177,16 @@ get_header(); ?>
 
 
                  <div class="col-lg-9 col-md-7 col-sm-12 col-xl-9" style="background-color: #D66125;">
-                   <h1 class="head-creator"><?php the_field('creator’_s_network','39'); ?></h1>
-                   <div class="row row-creators">
+<!--                    <h1 class="head-creator"><?php the_field('creator’_s_network','39'); ?></h1>
+ -->                    <h1 class="head-creator">creator’ s network</h1>
+                  <p class="para-service-a">With our skills and experience combined, we have made marketing<br> an art. With our help, your brand will do more than just stand out—<br>it will be the set standard everyone in your niche will look to for<br> inspiration.
+
+</p>
+
+<button class="join-service"><a href="http://18.207.168.148/how-to-join-us/" style="color: #fff; text-decoration: none;">Join our Creator’s Network</a>
+
+</button>
+                   <div class="row row-serveice">
 
                        
 
@@ -191,7 +199,7 @@ get_header(); ?>
                  ?>
                   <div class="row">            
                   <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="col-xl-3 col-lg-3 col-md-3">
                        <div class="box-artist">
                          <img src="<?php the_field('creatnw_image'); ?>" class="img-artist">
                          <h2 class="head-artist"><?php the_title(); ?></h2>
@@ -206,7 +214,7 @@ get_header(); ?>
                    </div>
                  </div>
 
-                 <div class="col-lg-3 col-md-5 col-sm-12 col-xl-3 desktop-all  margin-al">
+                 <div class="col-lg-3 col-md-5 col-sm-12 col-xl-3 desktop-all  margin-al d-none">
                    <div class="mgap6 p-l-mobile padding-left-10">
                       <h1 class="head-home1 about cboit"><?php the_field('meet_our_friends','39'); ?></h1>
                       <p class="para-second-home about mregular"><?php the_field('meet_our_friends_text','39'); ?>
