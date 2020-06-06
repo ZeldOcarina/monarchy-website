@@ -176,7 +176,7 @@ get_header(); ?>
              <div class="row">
 
 
-                 <div class="col-lg-9 col-md-7 col-sm-12 col-xl-9" style="background-color: #D66125;">
+                 <div class="col-lg-12 col-md-7 col-sm-12 col-xl-12" style="background-color: #D66125;">
                    <h1 class="head-creator"><?php the_field('creator’_s_network','39'); ?></h1>
                    <div class="row row-creators">
 
