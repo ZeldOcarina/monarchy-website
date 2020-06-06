@@ -176,7 +176,7 @@ get_header(); ?>
              <div class="row">
 
 
-                 <div class="col-lg-9 col-md-7 col-sm-12 col-xl-9" style="background-color: #D66125;">
+                 <div class="col-lg-12 col-md-7 col-sm-12 col-xl-12" style="background-color: #D66125;">
 <!--                    <h1 class="head-creator"><?php the_field('creator’_s_network','39'); ?></h1>
  -->                    <h1 class="head-creator">creator’ s network</h1>
                   <p class="para-service-a">With our skills and experience combined, we have made marketing<br> an art. With our help, your brand will do more than just stand out—<br>it will be the set standard everyone in your niche will look to for<br> inspiration.
