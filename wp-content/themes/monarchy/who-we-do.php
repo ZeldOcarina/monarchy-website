@@ -206,7 +206,7 @@ get_header(); ?>
                    </div>
                  </div>
 
-                 <div class="col-lg-3 col-md-5 col-sm-12 col-xl-3 desktop-all  margin-al">
+                 <div class="col-lg-3 col-md-5 col-sm-12 col-xl-3 desktop-all  margin-al d-none">
                    <div class="mgap6 p-l-mobile padding-left-10">
                       <h1 class="head-home1 about cboit"><?php the_field('meet_our_friends','39'); ?></h1>
                       <p class="para-second-home about mregular"><?php the_field('meet_our_friends_text','39'); ?>
