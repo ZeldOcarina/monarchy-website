@@ -14,6 +14,15 @@
 
 get_header(); ?>
 
+
+<style type="text/css">
+       #myVideo {
+ width: 100%;
+
+
+}
+</style>
+
 <body>
    <section class="bg-primary-col">
       <section class="AboutBanner">
@@ -116,7 +125,11 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-10 col-md-7 col-sm-12 col-xl-9 img-about-last">
                   <div class="bomre-img1"> 
-                    <button class="btn-video">video of influencers</button>
+                     <video autoplay muted loop id="myVideo">
+  <source src="img/monarchy.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+                    <!-- <button class="btn-video">video of influencers</button> -->
                   </div>
                 </div>
                 <div class="col-lg-2 col-md-5 col-sm-12 col-xl-3 desktop-all  margin-al">
