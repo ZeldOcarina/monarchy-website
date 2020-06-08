@@ -768,7 +768,7 @@ h1.head-leader {
     letter-spacing: 0;
     line-height: 16px;
     padding-left: 15px;
-    line-height: 0;
+    line-height: 1.5;
     padding-bottom: 29px;
     font-weight: bold;
 }
